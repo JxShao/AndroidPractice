@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/pb"
+        android:max="40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/startMyServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动我的Service"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/stopMyServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止我的Service">
+    </Button>
+
+    <Button
+        android:id="@+id/bindToMyServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定到我的Service">
+    </Button>
+
+    <Button
+        android:id="@+id/unbindToMyServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑我的Service">
+    </Button>
+
+</LinearLayout>
